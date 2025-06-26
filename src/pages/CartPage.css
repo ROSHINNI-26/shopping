@@ -1,0 +1,129 @@
+.cart-container {
+    text-align: center;
+    justify-content: center;
+}
+.cart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;      
+  align-items: flex-start;
+  gap: 30px;
+  margin: 0 auto;
+  width : 100vw;
+  padding-top: 20px;
+}
+
+.cart-actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cart-item-box {
+  width: 280px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.cart-actions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bill-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Optional light overlay */
+  z-index: 999;
+}
+
+.bill-container.small {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+
+.bill-heading {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.bill-table th,
+.bill-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.bill-table th {
+  background-color: #f4f4f4;
+}
+
+.bill-total {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 15px;
+  color: #222;
+}
+
+.thank-you {
+  font-size: 14px;
+  margin: 20px 0 10px;
+  color: #666;
+}
+
+.back-button {
+  padding: 8px 16px;
+  background-color: #e73370;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-button:hover {
+  background-color: #e73370;
+}
+.pink-button {
+  padding: 8px 16px;
+  background-color: #e73370;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pink-button:hover {
+  background-color: #cc2c61; /* darker version of #e73370 for hover */
+}
